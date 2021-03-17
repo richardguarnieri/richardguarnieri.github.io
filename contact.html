@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Contact</title>
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
@@ -28,7 +28,7 @@
                         <a class="nav-link" href="/">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="/portfolio.html">Portfolio</a>
+                        <a class="nav-link" href="/portfolio.html">Portfolio</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="/about.html">About</a>
@@ -37,17 +37,47 @@
                         <a class="nav-link" href="/resume.html">Resume</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/contact.html">Contact</a>
+                        <a class="nav-link active" href="/contact.html">Contact</a>
                     </li>
                 </ul>   
             </div>
         </nav>
     </header>
 
-    <div class="container vh-50 my-auto">
-        <div class="row p-5">
-            <h2 class="display-1 text-center my-auto">Work in Progress...</h2>
+    <div class="container">
+        <div class="row p-3 text-center">
+            <h2 class="display-4 py-4 mt-2">Get in touch</h2>
+            <p class="lead">Want to get in touch? I'd love to hear from you. Here's how you can reach me...</p>
         </div>
+
+    <form class="p-5">
+        <fieldset>
+        <legend>Please fill this form:</legend>
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="fName" name="fName" placeholder="John">
+                <label for="fName" class="form-label">First name</label>
+            </div>
+
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="lName" name="lName" placeholder="Doe">
+                <label for="lName" class="form-label">Last name</label>
+            </div>
+
+            <div class="form-floating mb-3">
+            <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="name@example.com">
+            <label for="inputEmail" class="form-label">Email address</label>
+            <div id="emailHelp" class="form-text">We'll never share your personal information with anyone else.</div>
+            </div>
+
+            <div class="form-floating mb-3">
+                <textarea class="form-control" placeholder="Leave a comment here" id="textArea" style="height: 200px"></textarea>
+                <label class="form-label" for="textArea">Comments</label>
+            </div>
+
+            <button type="submit" class="btn btn-dark">Submit</button>
+        </fieldset>
+      </form>
+
     </div>
     
     <footer class="bg-dark text-light text-center mt-auto">
