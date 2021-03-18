@@ -50,31 +50,33 @@
             <p class="lead">Want to get in touch? I'd love to hear from you. Here's how you can reach me...</p>
         </div>
 
-    <form class="p-5">
+    <form class="p-5" action="https://getform.io/f/f189cedb-1f8e-4701-af00-00d29ca41fef" method="POST">
         <fieldset>
         <legend>Please fill this form:</legend>
+
             <div class="form-floating mb-3">
-                <input type="text" class="form-control" id="fName" name="fName" placeholder="John">
+                <input type="text" class="form-control" id="fName" name="first_name" placeholder="John" required>
                 <label for="fName" class="form-label">First name</label>
             </div>
 
             <div class="form-floating mb-3">
-                <input type="text" class="form-control" id="lName" name="lName" placeholder="Doe">
+                <input type="text" class="form-control" id="lName" name="last_name" placeholder="Doe" required>   
                 <label for="lName" class="form-label">Last name</label>
             </div>
 
             <div class="form-floating mb-3">
-            <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="name@example.com">
+            <input type="email" class="form-control" id="inputEmail" name="email" aria-describedby="emailHelp" placeholder="name@example.com" required>
             <label for="inputEmail" class="form-label">Email address</label>
             <div id="emailHelp" class="form-text">We'll never share your personal information with anyone else.</div>
             </div>
 
             <div class="form-floating mb-3">
-                <textarea class="form-control" placeholder="Leave a comment here" id="textArea" style="height: 200px"></textarea>
+                <textarea class="form-control" id="textArea" name="comment" placeholder="Leave a comment here" style="height: 200px" required></textarea>
                 <label class="form-label" for="textArea">Comments</label>
             </div>
 
             <button type="submit" class="btn btn-dark">Submit</button>
+
         </fieldset>
       </form>
 
