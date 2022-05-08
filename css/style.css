@@ -16,3 +16,7 @@
     --br-sm-2: 14px;
 }
 
+#btn-test::before {
+    background: linear-gradient(blue, red);
+    background-size: 50%, 50%
+}
