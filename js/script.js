@@ -15,8 +15,6 @@
 
 // // removeEventListener
 
-window.alert('Window alerts should not be used; nonetheless, please note that the responsive version of this site is in active development! Expected to be finalized by end of May\n\nCurrenly best seen in screens about 1600 width')
-
 // window.addEventListener('scroll', () => {
 //     console.log(window.pageYOffset + 'px');
 //     console.log(portfolioHeaderElement.getBoundingClientRect())
