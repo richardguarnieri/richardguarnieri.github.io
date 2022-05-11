@@ -328,11 +328,11 @@
                     <p class="text-2xl font-extralight text-gray-700">My professional experience:</p>
                 </div>
                 <!-- Timeline Content -->
-                <div class="flex flex-wrap ">
+                <div class="flex flex-wrap">
                     <!-- Current Job -->
-                    <div class="flex-1 basis-5/12 m-5 flex items-center">
+                    <div class="flex-1 basis-full m-5 flex items-center md:basis-5/12">
                         <img src="./img/icss.jpeg" alt="" srcset="" class="w-24 h-24 rounded-full shadow-lg">
-                        <div class="basis-3/4 m-5 border-l pl-5">
+                        <div class="flex-1 m-5 border-l pl-5">
                             <div class="flex space-x-3">
                                 <p class="px-2 py-1 bg-green-600 border rounded text-white text-sm">Sep 2020 - Present</button>
                                 <p class="px-2 py-1 border border-gray-300 rounded text-gray-700 text-sm">Mexico</button>
@@ -343,9 +343,9 @@
                         </div>
                     </div>
                     <!-- Job #2 -->
-                    <div class="flex-1 basis-5/12 m-5 flex items-center">
+                    <div class="flex-1 basis-full m-5 flex items-center md:basis-5/12">
                         <img src="./img/panalpina.jpeg" alt="" srcset="" class="w-24 h-24 rounded-full shadow-lg">
-                        <div class="basis-3/4 m-5 border-l pl-5">
+                        <div class="flex-1 m-5 border-l pl-5">
                             <div class="flex space-x-3">
                                 <p class="px-2 py-1 bg-red-600 border rounded text-white text-sm">Jun 2019 - Aug 2020</button>
                                 <p class="px-2 py-1 border border-gray-300 rounded text-gray-700 text-sm">Mexico</button>
@@ -356,9 +356,9 @@
                         </div>
                     </div>
                     <!-- Job #3 -->
-                    <div class="flex-1 basis-5/12 m-5 flex items-center">
+                    <div class="flex-1 basis-full m-5 flex items-center md:basis-5/12">
                         <img src="./img/panalpina.jpeg" alt="" srcset="" class="w-24 h-24 rounded-full shadow-lg">
-                        <div class="basis-3/4 m-5 border-l pl-5">
+                        <div class="flex-1 m-5 border-l pl-5">
                             <div class="flex space-x-3">
                                 <p class="px-2 py-1 bg-red-600 border rounded text-white text-sm">Jul 2018 - May 2019</button>
                                 <p class="px-2 py-1 border border-gray-300 rounded text-gray-700 text-sm">Mexico</button>
@@ -369,9 +369,9 @@
                         </div>
                     </div>
                     <!-- Job #4 -->
-                    <div class="hidden basis-5/12 m-5 flex items-center">
+                    <div class="hidden flex-1 m-5 flex items-center md:flex md:basis-5/12">
                         <img src="./img/panalpina.jpeg" alt="" srcset="" class="w-24 h-24 rounded-full shadow-lg">
-                        <div class="basis-3/4 m-5 border-l pl-5">
+                        <div class="flex-1 m-5 border-l pl-5">
                             <div class="flex space-x-3">
                                 <p class="px-2 py-1 bg-red-600 border rounded text-white text-sm">Sep 2017 - Jun 2018</button>
                                 <p class="px-2 py-1 border border-gray-300 rounded text-gray-700 text-sm">Mexico</button>
@@ -382,9 +382,9 @@
                         </div>
                     </div>
                     <!-- Job #5 -->
-                    <div class="hidden basis-5/12 m-5 flex items-center">
+                    <div class="hidden flex-1 m-5 flex items-center xl:flex xl:basis-5/12">
                         <img src="./img/panalpina.jpeg" alt="" srcset="" class="w-24 h-24 rounded-full shadow-lg">
-                        <div class="basis-3/4 m-5 border-l pl-5">
+                        <div class="flex-1 m-5 border-l pl-5">
                             <div class="flex space-x-3">
                                 <p class="px-2 py-1 bg-red-600 border rounded text-white text-sm">Dec 2014 - Aug 2017</button>
                                 <p class="px-2 py-1 border border-gray-300 rounded text-gray-700 text-sm">Panama</button>
@@ -395,7 +395,7 @@
                         </div>
                     </div>
                     <!-- Job #5 -->
-                    <div class="hidden basis-5/12 m-5 flex items-center">
+                    <div class="hidden flex-1 m-5 flex items-center xl:flex xl:basis-5/12">
                         <!-- Empty -->
                     </div>
                 </div>
@@ -484,37 +484,37 @@
                         <fieldset class="space-y-5">
                             <!-- <legend>Please fill this form:</legend> -->
                             <!-- Input - First Name / Last Name -->
-                            <div class="flex justify-between">
-                                <label for="first-name" class="w-[48%]">
+                            <div class="flex flex-col justify-between space-y-5 sm:flex-row sm:space-y-0">
+                                <label for="first-name" class="w-full sm:w-[48%]">
                                     <span class="after:content-['*'] after:ml-0.5 after:text-red-500 block text-sm font-medium text-slate-700">First Name</span>
                                     <input type="text" class="w-full border rounded p-2 placeholder:text-slate-300" id="first-name" name="first-name" placeholder="Your first name" required>
                                 </label>
-                                <label for="last-name" class="w-[48%]">
+                                <label for="last-name" class="w-full sm:w-[48%]">
                                     <span class="after:content-['*'] after:ml-0.5 after:text-red-500 block text-sm font-medium text-slate-700">Last Name</span>
                                     <input type="text" class="w-full border rounded p-2 placeholder:text-slate-300" id="last-name" name="last-name" placeholder="Your last name" required>   
                                 </label>
                             </div>
                             <!-- Input - Email / Phone Number -->
-                            <div class="flex justify-between">
-                                <label for="email" class="w-[48%]">
+                            <div class="flex flex-col justify-between space-y-5 sm:flex-row sm:space-y-0">
+                                <label for="email" class="w-full sm:w-[48%]">
                                     <span class="after:content-['*'] after:ml-0.5 after:text-red-500 block text-sm font-medium text-slate-700">Email</span>
                                     <input type="email" class="w-full border rounded p-2 placeholder:text-slate-300" id="email" name="email" aria-describedby="" placeholder="name@example.com" required>
                                 </label>
-                                <label for="phone" class="w-[48%]">
+                                <label for="phone" class="w-full sm:w-[48%]">
                                     <span class="after:content-['*'] after:ml-0.5 after:text-red-500 block text-sm font-medium text-slate-700">Phone Number</span>
                                     <input type="tel" class="w-full border rounded p-2 placeholder:text-slate-300" id="phone" name="phone" placeholder="Your phone number" required>
                                 </label>
                             </div>
                             <!-- Input - Subject -->
                             <div class="flex">
-                                <label for="subject" class="w-[48%]">
+                                <label for="subject" class="w-full sm:w-[48%]">
                                     <span class="after:content-['*'] after:ml-0.5 after:text-red-500 block text-sm font-medium text-slate-700">Subject</span>
                                     <input type="text" class="w-full border rounded p-2 placeholder:text-slate-300" id="subject" name="subject" placeholder="Subject" required>   
                                 </label>
                             </div>
                             <!-- Input - Comments -->
                             <div class="">
-                                <label for="text-area" class="w-[48%]">
+                                <label for="text-area" class="w-full sm:w-[48%]">
                                     <span class="after:content-['*'] after:ml-0.5 after:text-red-500 block text-sm font-medium text-slate-700">Comment / Message</span>
                                     <textarea class="resize-none w-full h-48 border rounded p-2 placeholder:text-slate-300" id="text-area" name="comment" placeholder="Leave a comment here" required></textarea>
                                 </label>
