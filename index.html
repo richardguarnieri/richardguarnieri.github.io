@@ -39,21 +39,31 @@
 
     <!-- Header -->
     <header class="min-h-[7vh] flex px-5 bg-gradient-to-r from-slate-900 to-slate-700 text-white border-b border-slate-800">
-        <!-- Header Container -->
-        <div class="container mx-auto flex justify-between items-center">
-            <!-- Header Name -->
-            <a href=""><h1 class="text-3xl font-extralight">Richard Guarnieri</h1></a>
-            <!-- Header Navigation Bar -->
-            <nav class="hidden md:block">
-                <ul class="flex space-x-9">
+        <!-- Navigation Bar -->
+        <nav class="container mx-auto flex flex-wrap justify-between items-center">
+            <!-- Navbar Logo and Button -->
+            <div class="">
+                <a href=""><h1 class="text-3xl font-extralight">Richard Guarnieri</h1></a>
+            </div>
+            <!-- Navbar Button -->
+            <div class="md:hidden">
+                <div class="space-y-2 hover:cursor-pointer">
+                    <span id="top-hamburger-line" class="block w-8 h-0.5 bg-white animate-pulse"></span>
+                    <span id="middle-hamburger-line" class="block w-8 h-0.5 bg-white animate-pulse"></span>
+                    <span id="bottom-hamburger-line" class="block w-8 h-0.5 bg-white animate-pulse"></span>
+                </div>
+            </div>
+            <!-- Navbar Items -->
+            <div class="hidden basis-full md:block md:basis-auto">
+                <ul class="flex flex-col space-y-1 text-center md:flex-row md:space-x-9 md:space-y-0">
                     <li><a href="./index.html" class="transition hover:text-sky-500">Home</a></li>
                     <li><a href="#portfolio" class="transition hover:text-sky-500">Portfolio</a></li>
                     <li><a href="#about" class="transition hover:text-sky-500">About</a></li>
                     <li><a href="#blog" class="transition hover:text-sky-500">Blog</a></li>
                     <li><a href="#contact" class="transition hover:text-sky-500">Contact</a></li>
                 </ul>
-            </nav>
-        </div>
+            </div>
+        </nav>
     </header>
 
     <!-- Home Section -->
