@@ -59,30 +59,41 @@
 // const bottomHamburgerLine = document.querySelector('#bottom-hamburger-line');
 
 
-// console.log(hamburgerMenu.children[0])
+// console.log(menuBtn.children[0])
 
 
-const hamburgerMenu = document.querySelector('#hamburger-menu');
+const menuBtn = document.querySelector('#menu-btn');
+const menuClosed = document.querySelector('#menu-closed');
+const menuOpened = document.querySelector('#menu-opened');
 const navbarItems = document.querySelector('#navbar-items');
 
-hamburgerMenu.classList.add('hamburger-inactive')
+// menuBtn.classList.add('hamburger-inactive')
 
 const showNavigation = () => {
-    if (hamburgerMenu.classList.contains('hamburger-inactive')) {
-        hamburgerMenu.classList.replace('hamburger-inactive', 'hamburger-active')
-        hamburgerMenu.children[0].classList.add('origin-top-left', 'translate-x-1', 'rotate-[40deg]')
-        hamburgerMenu.children[1].classList.add('invisible')
-        hamburgerMenu.children[2].classList.add('origin-bottom-left', 'translate-x-1', '-rotate-[40deg]')
-        navbarItems.classList.remove('opacity-0', '-z-10');
-        navbarItems.classList.add('transition-opacity', 'ease-in', 'duration-300', 'z-10', 'opacity-100');    
+    if (menuOpened.classList.contains('hidden')) {
+        menuClosed.classList.add('hidden');
+        menuOpened.classList.remove('hidden');
+        // menuBtn.classList.replace('hamburger-inactive', 'hamburger-active')
+        // menuBtn.children[0].classList.add('origin-top-left', 'translate-x-1', 'rotate-[40deg]')
+        // menuBtn.children[1].classList.add('invisible')
+        // menuBtn.children[2].classList.add('origin-bottom-left', 'translate-x-1', '-rotate-[40deg]')
+        navbarItems.classList.remove('hidden');
+        // navbarItems.classList.add('transition-opacity', 'ease-in', 'duration-300', 'z-10', 'opacity-100');    
     } else {
-        hamburgerMenu.classList.replace('hamburger-active', 'hamburger-inactive')
-        hamburgerMenu.children[0].classList.remove('origin-top-left', 'translate-x-1', 'rotate-[40deg]')
-        hamburgerMenu.children[1].classList.remove('invisible')
-        hamburgerMenu.children[2].classList.remove('origin-bottom-left', 'translate-x-1', '-rotate-[40deg]')
-        navbarItems.classList.add('opacity-0', '-z-10');
-        navbarItems.classList.remove('transition-opacity', 'ease-in', 'duration-300', 'z-10', 'opacity-100');    
+        menuClosed.classList.remove('hidden');
+        menuOpened.classList.add('hidden');
+        // menuBtn.classList.replace('hamburger-inactive', 'hamburger-active')
+        // menuBtn.children[0].classList.add('origin-top-left', 'translate-x-1', 'rotate-[40deg]')
+        // menuBtn.children[1].classList.add('invisible')
+        // menuBtn.children[2].classList.add('origin-bottom-left', 'translate-x-1', '-rotate-[40deg]')
+        navbarItems.classList.add('hidden');
+        // menuBtn.classList.replace('hamburger-active', 'hamburger-inactive')
+        // menuBtn.children[0].classList.remove('origin-top-left', 'translate-x-1', 'rotate-[40deg]')
+        // menuBtn.children[1].classList.remove('invisible')
+        // menuBtn.children[2].classList.remove('origin-bottom-left', 'translate-x-1', '-rotate-[40deg]')
+        // navbarItems.classList.add('hidden');
+        // navbarItems.classList.remove('transition-opacity', 'ease-in', 'duration-300', 'z-10', 'opacity-100');    
     }
 };
 
-hamburgerMenu.addEventListener('click', showNavigation)
+menuBtn.addEventListener('click', showNavigation)
