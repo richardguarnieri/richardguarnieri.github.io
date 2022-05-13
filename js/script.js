@@ -65,12 +65,24 @@
 const hamburgerMenu = document.querySelector('#hamburger-menu');
 const navbarItems = document.querySelector('#navbar-items');
 
+hamburgerMenu.classList.add('hamburger-inactive')
+
 const showNavigation = () => {
-    hamburgerMenu.children[0].classList.add('transition', 'origin-top-left', 'translate-x-1', 'rotate-[40deg]')
-    hamburgerMenu.children[1].classList.add('invisible')
-    hamburgerMenu.children[2].classList.add('transition', 'origin-bottom-left', 'translate-x-1', '-rotate-[40deg]')
-    navbarItems.classList.remove('opacity-0', '-z-10');
-    navbarItems.classList.add('transition-opacity', 'ease-in', 'duration-300', 'z-10', 'opacity-100');
+    if (hamburgerMenu.classList.contains('hamburger-inactive')) {
+        hamburgerMenu.classList.replace('hamburger-inactive', 'hamburger-active')
+        hamburgerMenu.children[0].classList.add('origin-top-left', 'translate-x-1', 'rotate-[40deg]')
+        hamburgerMenu.children[1].classList.add('invisible')
+        hamburgerMenu.children[2].classList.add('origin-bottom-left', 'translate-x-1', '-rotate-[40deg]')
+        navbarItems.classList.remove('opacity-0', '-z-10');
+        navbarItems.classList.add('transition-opacity', 'ease-in', 'duration-300', 'z-10', 'opacity-100');    
+    } else {
+        hamburgerMenu.classList.replace('hamburger-active', 'hamburger-inactive')
+        hamburgerMenu.children[0].classList.remove('origin-top-left', 'translate-x-1', 'rotate-[40deg]')
+        hamburgerMenu.children[1].classList.remove('invisible')
+        hamburgerMenu.children[2].classList.remove('origin-bottom-left', 'translate-x-1', '-rotate-[40deg]')
+        navbarItems.classList.add('opacity-0', '-z-10');
+        navbarItems.classList.remove('transition-opacity', 'ease-in', 'duration-300', 'z-10', 'opacity-100');    
+    }
 };
 
 hamburgerMenu.addEventListener('click', showNavigation)
