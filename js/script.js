@@ -53,3 +53,24 @@
 // // const convertRemToPixels = (rem) => {    
 // //     return rem * parseFloat(getComputedStyle(document.documentElement).fontSize);
 // // }
+
+// const topHamburgerLine = document.querySelector('#top-hamburger-line');
+// const middleHamburgerLine = document.querySelector('#middle-hamburger-line');
+// const bottomHamburgerLine = document.querySelector('#bottom-hamburger-line');
+
+
+// console.log(hamburgerMenu.children[0])
+
+
+const hamburgerMenu = document.querySelector('#hamburger-menu');
+const navbarItems = document.querySelector('#navbar-items');
+
+const showNavigation = () => {
+    hamburgerMenu.children[0].classList.add('transition', 'origin-top-left', 'translate-x-1', 'rotate-[40deg]')
+    hamburgerMenu.children[1].classList.add('invisible')
+    hamburgerMenu.children[2].classList.add('transition', 'origin-bottom-left', 'translate-x-1', '-rotate-[40deg]')
+    navbarItems.classList.remove('opacity-0', '-z-10');
+    navbarItems.classList.add('transition-opacity', 'ease-in', 'duration-300', 'z-10', 'opacity-100');
+};
+
+hamburgerMenu.addEventListener('click', showNavigation)
