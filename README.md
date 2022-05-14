@@ -10,13 +10,13 @@ Your Name: `Richard Guarnieri`
 Email: `richard.gm@outlook.com`
 LinkedIn Username: `rguarnieri`
 Twitter Username: `ric_guarnieri`
-Project Title: `The README.md Template`
+Project Title: `Personal GitHub.io Page`
 Project Description: `A README.md template for your projects!`
 -->
 
 <!-- Please also update the following links -->
 [logo]: ./img/logo.png
-[application-image]: ./img/app-image.webp
+[application-image]: ./img/app-image.png
 [application-url]: https://example.com/
 
 <div id="home"><div> 
@@ -56,7 +56,7 @@ Project Description: `A README.md template for your projects!`
     <a href="https://github.com/richardguarnieri/readme-template">
         <img src="./img/logo.png" alt="Logo" width="300" height="auto">
     </a>
-    <h1 align="center">The README.md Template</h1>
+    <h1 align="center">Personal GitHub.io Page</h1>
     <div>
         A README.md template for your projects!
         <br>
@@ -75,8 +75,6 @@ Project Description: `A README.md template for your projects!`
 
 <!-- Table of Contents -->
 ## Table of Contents
-If your README is long, you may choose to use this table of contents to make it easy for users to find what they need.
-
 * [The Project](#the-project)
     * [Technology Stack](#technology-stack)
 * [Getting Started](#getting-started)
@@ -115,10 +113,7 @@ Use this section to list the technologies used in the project - examples:
 * [HTML](https://html.spec.whatwg.org/)
 * [CSS](https://www.w3.org/TR/CSS/#css)
 * [JavaScript](https://www.ecma-international.org/publications-and-standards/standards/ecma-262/)
-* [SASS](https://sass-lang.com/)
 * [Tailwind CSS](https://tailwindcss.com/)
-* [Node.js](https://nodejs.org/en/)
-* [React.js](https://reactjs.org/)
 
 <p align="right"> - <a href="#home">Return to Home</a></p>
 
