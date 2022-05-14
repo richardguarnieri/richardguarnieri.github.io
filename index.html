@@ -138,12 +138,10 @@
 
             <!-- Portfolio Content -->
             <div class="flex flex-col">
-            
-
-
-
+    
                 <!-- Carousel -->
                 <div id="carousel" class="flex justify-between my-5">
+
                     <!-- Carousel Left Button -->
                     <button id="carousel-left-btn" class="group px-3">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 transition group-active:text-blue-500 group-hover:scale-150" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
@@ -151,12 +149,13 @@
                         </svg>
                     </button>
 
+                    <!-- Carousel Box -->
                     <ul id="carousel-box" class="flex items-center py-8 px-1 overflow-scroll space-x-5">
                         <!-- Carousel Item #1 -->
                         <li class="group basis-5/12 rounded-lg shrink-0 transition hover:shadow-lg">
                             <div class="relative aspect-video">
                                 <img src="./img/portfolio/weather-dashboard.png" alt="" class="rounded-t-lg w-full h-full object-cover">
-                                <div class="absolute flex flex-col justify-center items-center p-16 inset-0 z-10 opacity-0 
+                                <div class="absolute flex flex-col justify-center items-center inset-0 z-10 opacity-0 
                                     bg-slate-900 text-center text-white space-y-3 rounded-t-lg
                                     transition duration-300 hover:scale-100 group-hover:opacity-75">
                                     <p class="text-sm md:text-base lg:text-2xl xl:text-3xl">Weather Dashboard</p>
@@ -185,7 +184,7 @@
                         <li class="group basis-5/12 rounded-lg shrink-0 transition hover:shadow-lg">
                             <div class="relative aspect-video">
                                 <img src="./img/portfolio/password-generator.png" alt="" class="rounded-t-lg w-full h-full object-cover">
-                                <div class="absolute flex flex-col justify-center items-center p-16 inset-0 z-10 opacity-0 
+                                <div class="absolute flex flex-col justify-center items-center inset-0 z-10 opacity-0 
                                     bg-slate-900 text-center text-white space-y-3 rounded-t-lg
                                     transition duration-300 hover:scale-100 group-hover:opacity-75">
                                     <p class="text-sm md:text-base lg:text-2xl xl:text-3xl">Password Generator</p>
@@ -214,7 +213,7 @@
                         <li class="group basis-5/12 rounded-lg shrink-0 transition hover:shadow-lg">
                             <div class="relative aspect-video">
                                 <img src="./img/portfolio/readme-template.png" alt="" class="rounded-t-lg w-full h-full object-cover">
-                                <div class="absolute flex flex-col justify-center items-center p-16 inset-0 z-10 opacity-0 
+                                <div class="absolute flex flex-col justify-center items-center inset-0 z-10 opacity-0 
                                     bg-slate-900 text-center text-white space-y-3 rounded-t-lg
                                     transition duration-300 hover:scale-100 group-hover:opacity-75">
                                     <p class="text-sm md:text-base lg:text-2xl xl:text-3xl">README.md Template</p>
@@ -229,6 +228,12 @@
                                         ">
                                         GitHub
                                 </a>
+                                <a href="" target="" class="
+                                        px-4 py-2 bg-white border border-gray-300 rounded-md text-gray-700 font-medium text-sm
+                                        hover:bg-gray-50
+                                        ">
+                                        
+                                </a>
                             </div>
                         </li>
                    
@@ -237,7 +242,7 @@
                         <li class="group basis-5/12 rounded-lg shrink-0 transition hover:shadow-lg">
                             <div class="relative aspect-video">
                                 <img src="./img/portfolio/code-quiz.png" alt="" class="rounded-t-lg w-full h-full object-cover">
-                                <div class="absolute flex flex-col justify-center items-center p-16 inset-0 z-10 opacity-0 
+                                <div class="absolute flex flex-col justify-center items-center inset-0 z-10 opacity-0 
                                     bg-slate-900 text-center text-white space-y-3 rounded-t-lg
                                     transition duration-300 hover:scale-100 group-hover:opacity-75">
                                     <p class="text-sm md:text-base lg:text-2xl xl:text-3xl">Code Quiz</p>
@@ -266,7 +271,7 @@
                         <li class="group basis-5/12 rounded-lg shrink-0 transition hover:shadow-lg">
                             <div class="relative aspect-video">
                                 <img src="./img/portfolio/work-day-scheduler.png" alt="" class="rounded-t-lg w-full h-full object-cover">
-                                <div class="absolute flex flex-col justify-center items-center p-16 inset-0 z-10 opacity-0 
+                                <div class="absolute flex flex-col justify-center items-center inset-0 z-10 opacity-0 
                                     bg-slate-900 text-center text-white space-y-3 rounded-t-lg
                                     transition duration-300 hover:scale-100 group-hover:opacity-75">
                                     <p class="text-sm md:text-base lg:text-2xl xl:text-3xl">Work Day Scheduler</p>
@@ -295,7 +300,7 @@
                         <li class="group basis-5/12 rounded-lg shrink-0 transition hover:shadow-lg">
                             <div class="relative aspect-video">
                                 <img src="./img/portfolio/personal-asset-manager.png" alt="" class="rounded-t-lg w-full h-full object-cover">
-                                <div class="absolute flex flex-col justify-center items-center p-16 inset-0 z-10 opacity-0 
+                                <div class="absolute flex flex-col justify-center items-center inset-0 z-10 opacity-0 
                                     bg-slate-900 text-center text-white space-y-3 rounded-t-lg
                                     transition duration-300 hover:scale-100 group-hover:opacity-75">
                                     <p class="text-sm md:text-base lg:text-2xl xl:text-3xl">Personal Asset Manager</p>
@@ -330,6 +335,20 @@
                     </button>
 
                 </div>
+
+                <!-- Link to GitHub -->
+
+                <div>
+                    <p>If you want to see more content, please visit my <span class="font-bold">GitHub</span> profile here: 
+                        <a href="https://github.com/richardguarnieri" target="_blank">
+                            <i class="bi bi-github
+                            inline-block text-4xl align-middle transition duration-300
+                            hover:cursor-pointer hover:text-blue-500 hover:-translate-y-1
+                            "></i>
+                        </a>
+                    </p>
+                </div>
+
             </div>
          </div>
     </section>
