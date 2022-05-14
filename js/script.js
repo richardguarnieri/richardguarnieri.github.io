@@ -97,3 +97,46 @@ const showNavigation = () => {
 };
 
 menuBtn.addEventListener('click', showNavigation)
+
+
+
+const carouselBox = document.querySelector('#carousel-box');
+let scrollPerClick;
+let imagePadding = 100;
+let scrollAmount = 0;
+
+console.log(carouselBox.children[0]);
+console.log(carouselBox.children[0].clientWidth);
+console.log(carouselBox.scrollWidth);
+console.log(carouselBox.clientWidth);
+
+// Gets the "li" element width and adds a bit of arbitrary padding
+scrollPerClick = carouselBox.children[0].clientWidth + imagePadding;
+
+const scrollLeft = () => {
+    carouselBox.scrollTo({
+        top: 0,
+        left: (scrollAmount -= scrollPerClick),
+        behavior: "smooth"
+    });
+
+    if (scrollAmount < 0) {
+        scrollAmount = 0;
+    }
+};
+
+const scrollRight = () => {
+    if (scrollAmount <= carouselBox.scrollWidth - carouselBox.clientWidth) {
+        carouselBox.scrollTo({
+            top: 0,
+            left: (scrollAmount += scrollPerClick),
+            behavior: "smooth"
+        });
+    };
+};
+
+const carouselLeftBtn = document.querySelector('#carousel-left-btn');
+const carouselRightBtn = document.querySelector('#carousel-right-btn');
+
+carouselLeftBtn.addEventListener('click', scrollLeft);
+carouselRightBtn.addEventListener('click', scrollRight);
