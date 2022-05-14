@@ -102,7 +102,7 @@ menuBtn.addEventListener('click', showNavigation)
 
 const carouselBox = document.querySelector('#carousel-box');
 let scrollPerClick;
-let imagePadding = 100;
+let imagePadding = 20;
 let scrollAmount = 0;
 
 console.log(carouselBox.children[0]);
