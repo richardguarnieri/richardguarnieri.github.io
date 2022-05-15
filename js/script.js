@@ -105,10 +105,10 @@ let scrollPerClick;
 let imagePadding = 20;
 let scrollAmount = 0;
 
-console.log(carouselBox.children[0]);
-console.log(carouselBox.children[0].clientWidth);
-console.log(carouselBox.scrollWidth);
-console.log(carouselBox.clientWidth);
+// console.log(carouselBox.children[0]);
+// console.log(carouselBox.children[0].clientWidth);
+// console.log(carouselBox.scrollWidth);
+// console.log(carouselBox.clientWidth);
 
 // Gets the "li" element width and adds a bit of arbitrary padding
 scrollPerClick = carouselBox.children[0].clientWidth + imagePadding;
