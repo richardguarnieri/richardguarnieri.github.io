@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.30fd9b79.css",
-    "main.js": "/static/js/main.c0752caa.js",
+    "main.js": "/static/js/main.94b23a5e.js",
     "static/media/employee-tracker.png": "/static/media/employee-tracker.cfb36b1987be712a0849.png",
     "static/media/team-profile-generator.png": "/static/media/team-profile-generator.7174bb9a1e6eb9677298.png",
     "static/media/work-day-scheduler.png": "/static/media/work-day-scheduler.b652ba8b2cb685d92c83.png",
@@ -15,12 +15,13 @@
     "static/media/panalpina.jpeg": "/static/media/panalpina.2773647ff2e0629da3f5.jpeg",
     "static/media/python.png": "/static/media/python.878ead43fd73adbf8e79.png",
     "static/media/react_dark.webp": "/static/media/react_dark.02486e478f54cce36c18.webp",
+    "static/media/graphQL.svg": "/static/media/graphQL.3caafeddeb7dab1f0c45ce24993078e7.svg",
     "index.html": "/index.html",
     "main.30fd9b79.css.map": "/static/css/main.30fd9b79.css.map",
-    "main.c0752caa.js.map": "/static/js/main.c0752caa.js.map"
+    "main.94b23a5e.js.map": "/static/js/main.94b23a5e.js.map"
   },
   "entrypoints": [
     "static/css/main.30fd9b79.css",
-    "static/js/main.c0752caa.js"
+    "static/js/main.94b23a5e.js"
   ]
 }
