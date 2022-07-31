@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.30fd9b79.css",
+    "main.js": "/static/js/main.c0752caa.js",
+    "static/media/employee-tracker.png": "/static/media/employee-tracker.cfb36b1987be712a0849.png",
+    "static/media/team-profile-generator.png": "/static/media/team-profile-generator.7174bb9a1e6eb9677298.png",
+    "static/media/work-day-scheduler.png": "/static/media/work-day-scheduler.b652ba8b2cb685d92c83.png",
+    "static/media/e-commerce-back-end.png": "/static/media/e-commerce-back-end.27a66795b5bdd8929345.png",
+    "static/media/password-generator.png": "/static/media/password-generator.a8d33210950250d0286c.png",
+    "static/media/code-quiz.png": "/static/media/code-quiz.1e7b7481a4e176da4718.png",
+    "static/media/readme-template.png": "/static/media/readme-template.304a5ca1e3bbf77b444b.png",
+    "static/media/personal-asset-manager.png": "/static/media/personal-asset-manager.6fabaa2e95a899db005b.png",
+    "static/media/weather-dashboard.png": "/static/media/weather-dashboard.1d102f7a6cf569fdb299.png",
+    "static/media/profile_picture_main.jpg": "/static/media/profile_picture_main.de18362fc8de43b1401f.jpg",
+    "static/media/panalpina.jpeg": "/static/media/panalpina.2773647ff2e0629da3f5.jpeg",
+    "static/media/python.png": "/static/media/python.878ead43fd73adbf8e79.png",
+    "static/media/react_dark.webp": "/static/media/react_dark.02486e478f54cce36c18.webp",
+    "index.html": "/index.html",
+    "main.30fd9b79.css.map": "/static/css/main.30fd9b79.css.map",
+    "main.c0752caa.js.map": "/static/js/main.c0752caa.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.30fd9b79.css",
+    "static/js/main.c0752caa.js"
+  ]
+}
