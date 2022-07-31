@@ -6,7 +6,7 @@ const Footer = () => {
         {/* Footer Container */}
         <div className="container mx-auto flex justify-center items-center px-5 py-3">
           {/* Footer Name */}
-          <p className="font-extralight text-white text-center">Copyright © 2022 - Richard Guarnieri</p>
+          <p className="font-extralight text-white text-center">Copyright © {new Date().getFullYear()} - Richard Guarnieri</p>
         </div>
       </footer>
     </div>
