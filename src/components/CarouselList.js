@@ -1,7 +1,7 @@
 const CarouselList = ({ githubRepositories }) => {
   return (
     // Carousel List
-    <ul id="carousel-box" className="flex items-center py-8 px-1 overflow-scroll space-x-5">
+    <ul id="carousel-box" className="flex items-center py-8 px-1 overflow-auto space-x-5">
         {/* Carousel Item */}
         {githubRepositories.map((repo) => {
             return (
