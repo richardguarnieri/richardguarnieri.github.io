@@ -11,8 +11,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div className="font-poppins">
-      <BrowserRouter>
+    <BrowserRouter>
+      <div className="font-poppins">
         <Header />
           <Routes>
               <Route path="/" element={
@@ -26,8 +26,8 @@ function App() {
               <Route path='/blog' element={<Blog />} />
           </Routes>
         <Footer />
-      </BrowserRouter>
-    </div>
+      </div>
+    </BrowserRouter>
   );
 }
 

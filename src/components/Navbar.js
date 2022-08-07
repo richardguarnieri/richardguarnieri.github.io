@@ -32,7 +32,7 @@ const Navbar = () => {
                 <a href="/"><h1 className="text-3xl font-extralight">Richard Guarnieri</h1></a>
             </div>
             {/* Navbar Menu Button */}
-            <button id="menu-btn" className="p-1 rounded hover:bg-gray-700 focus:ring-2 focus:ring-white md:hidden"
+            <button id="menu-btn" className="p-1 rounded hover:bg-gray-700 focus:ring-2 focus:ring-white md:hidden" aria-label="menu button"
             onClick={showNavigation}>
                 <svg id="menu-closed" xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 animate-pulse" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />

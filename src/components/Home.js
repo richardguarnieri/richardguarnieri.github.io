@@ -1,4 +1,4 @@
-import profilePicture from '../img/profile_picture_main.jpg';
+import profilePicture from '../img/profile/profile_picture_main.jpg';
 
 const Home = () => {
   return (

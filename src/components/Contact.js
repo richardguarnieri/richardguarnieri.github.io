@@ -52,21 +52,21 @@ const Contact = () => {
                     {/* Social Icons Div */}
                     <div className="flex justify-center space-x-10">
                         {/* GitHub Icon */}
-                        <a href="https://github.com/richardguarnieri" target="_blank" rel="noreferrer">
+                        <a href="https://github.com/richardguarnieri" target="_blank" rel="noreferrer" aria-label="GitHub">
                             <i className="bi bi-github
                             inline-block text-4xl transition duration-300
                             hover:cursor-pointer hover:text-blue-500 hover:-translate-y-1
                             "></i>
                         </a>
                         {/* LinkedIn Icon */}
-                        <a href="https://www.linkedin.com/in/rguarnieri/" target="_blank" rel="noreferrer">
+                        <a href="https://www.linkedin.com/in/rguarnieri/" target="_blank" rel="noreferrer" aria-label="LinkedIn">
                             <i className="bi bi-linkedin
                             inline-block text-4xl transition duration-300
                             hover:cursor-pointer hover:text-blue-500 hover:-translate-y-1
                             "></i>
                         </a>
                         {/* Twitter Icon */}
-                        <a href="https://twitter.com/ric_guarnieri" target="_blank" rel="noreferrer">
+                        <a href="https://twitter.com/ric_guarnieri" target="_blank" rel="noreferrer" aria-label="Twitter">
                             <i className="bi bi-twitter
                             inline-block text-4xl transition duration-300
                             hover:cursor-pointer hover:text-blue-500 hover:-translate-y-1

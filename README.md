@@ -15,8 +15,8 @@ Project Description: `Personal Site Deployed w/ GitHub Pages`
 -->
 
 <!-- Please also update the following links -->
-[logo]: ./src/img/logo.png
-[application-image]: ./src/img/app-image.png
+[logo]: ./src/img/readme/logo.png
+[application-image]: ./src/img/readme/app-image.png
 [application-url]: https://richardguarnieri.github.io/
 
 <div id="home"><div> 
@@ -54,7 +54,7 @@ Project Description: `Personal Site Deployed w/ GitHub Pages`
 
 <div align="center">
     <a href="https://github.com/richardguarnieri/richardguarnieri.github.io">
-        <img src="./src/img/logo.png" alt="Logo" width="300" height="auto">
+        <img src="./src/img/readme/logo.png" alt="Logo" width="300" height="auto">
     </a>
     <h1 align="center">Personal GitHub.io Page</h1>
     <div>

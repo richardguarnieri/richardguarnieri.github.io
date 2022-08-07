@@ -126,7 +126,7 @@ const Carousel = () => {
         {/* Carousel */}
         <div id="carousel" className="flex justify-between my-5">
             {/* Carousel Left Button */}
-            <button id="carousel-left-btn" className="group px-3" onClick={scrollLeft}>
+            <button id="carousel-left-btn" className="group px-3" aria-label="carousel left button" onClick={scrollLeft}>
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 transition group-active:text-blue-500 group-hover:scale-150" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7" />
                 </svg>
@@ -134,7 +134,7 @@ const Carousel = () => {
             {/* Carousel List */}
             <CarouselList githubRepositories={githubRepositories} />
             {/* Carousel Right Button */}
-            <button id="carousel-right-btn" className="group px-3" onClick={scrollRight}>
+            <button id="carousel-right-btn" className="group px-3" aria-label="carousel right button" onClick={scrollRight}>
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 transition group-active:text-blue-500 group-hover:scale-150" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
                 </svg>
@@ -144,7 +144,7 @@ const Carousel = () => {
         {/* Link to GitHub */}
         <div>
             <p>If you want to see more content, please visit my <span className="font-bold">GitHub</span> profile here: &nbsp;
-                <a href="https://github.com/richardguarnieri" target="_blank" rel='noreferrer'>
+                <a href="https://github.com/richardguarnieri" target="_blank" rel='noreferrer' aria-label="GitHub">
                     <i className="bi bi-github
                     inline-block text-4xl align-middle transition duration-300
                     hover:cursor-pointer hover:text-blue-500 hover:-translate-y-1
