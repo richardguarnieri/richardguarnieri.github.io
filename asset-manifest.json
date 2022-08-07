@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.8984686e.css",
-    "main.js": "/static/js/main.6efdcfb7.js",
+    "main.css": "/static/css/main.a9089bc9.css",
+    "main.js": "/static/js/main.cd424a8f.js",
     "static/media/employee-tracker.png": "/static/media/employee-tracker.cfb36b1987be712a0849.png",
     "static/media/team-profile-generator.png": "/static/media/team-profile-generator.7174bb9a1e6eb9677298.png",
     "static/media/work-day-scheduler.png": "/static/media/work-day-scheduler.b652ba8b2cb685d92c83.png",
@@ -17,11 +17,11 @@
     "static/media/react_dark.webp": "/static/media/react_dark.02486e478f54cce36c18.webp",
     "static/media/graphQL.svg": "/static/media/graphQL.3caafeddeb7dab1f0c45ce24993078e7.svg",
     "index.html": "/index.html",
-    "main.8984686e.css.map": "/static/css/main.8984686e.css.map",
-    "main.6efdcfb7.js.map": "/static/js/main.6efdcfb7.js.map"
+    "main.a9089bc9.css.map": "/static/css/main.a9089bc9.css.map",
+    "main.cd424a8f.js.map": "/static/js/main.cd424a8f.js.map"
   },
   "entrypoints": [
-    "static/css/main.8984686e.css",
-    "static/js/main.6efdcfb7.js"
+    "static/css/main.a9089bc9.css",
+    "static/js/main.cd424a8f.js"
   ]
 }
