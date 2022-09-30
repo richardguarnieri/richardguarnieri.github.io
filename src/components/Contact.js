@@ -2,7 +2,7 @@ const Contact = () => {
   return (
     <div>
         {/* Contact Section */}
-     <section id="contact" className="min-h-[100vh] px-5">
+     <section id="contact" className="mt-4 px-5 lg:mt-24">
 
         {/* Sticky Header w/ Bottom Border */}
         <div id="contact-header" className="sticky top-0 z-50 bg-white border-b border-slate-100">

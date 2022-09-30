@@ -4,7 +4,7 @@ const Home = () => {
   return (
     <div>
         {/* Home Section */}
-        <section id="home" className="min-h-[93vh] container mx-auto flex flex-col items-center p-5 space-y-8 lg:flex-row lg:space-x-8">
+        <section id="home" className="container mx-auto mt-4 flex flex-col items-center p-5 space-y-8 lg:mt-24 lg:flex-row lg:space-x-8">
             {/* Left Side */}
             <div className="basis-1/2">
                 <img 

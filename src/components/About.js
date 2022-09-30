@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div>
          {/* About Section */}
-        <section id="about" className="min-h-[100vh] px-5">
+        <section id="about" className="mt-4 px-5 lg:mt-24">
 
         {/* Sticky Header w/ Bottom Border */}
         <div id="about-header" className="sticky top-0 z-50 bg-white border-b border-slate-100">

@@ -12,7 +12,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 function App() {
   return (
     <BrowserRouter>
-      <div className="font-poppins">
+      <div className="font-poppins min-h-screen flex flex-col">
         <Header />
           <Routes>
               <Route path="/" element={

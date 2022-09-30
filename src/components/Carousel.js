@@ -7,6 +7,10 @@ import readmeTemplate from '../img/portfolio/readme-template.png';
 import teamProfileGenerator from '../img/portfolio/team-profile-generator.png';
 import weatherDashboard from '../img/portfolio/weather-dashboard.png';
 import workDayScheduler from '../img/portfolio/work-day-scheduler.png';
+import mernBookSearchEngine from '../img/portfolio/mern-book-search-engine.png';
+import socialNetworkAPI from '../img/portfolio/social-network-api.png';
+import textEditor from '../img/portfolio/text-editor.png';
+import techBlog from '../img/portfolio/tech-blog.png';
 
 import CarouselList from './CarouselList';
 
@@ -16,6 +20,30 @@ const Carousel = () => {
     const githubRepositories = [
         {
             id: 1,
+            name: 'MERN Book Search Engine', 
+            description: 'A MERN (MongoDB, Express, React and Node) Application using GraphQL!',
+            img: mernBookSearchEngine,
+            githubURL: 'https://github.com/richardguarnieri/MERN-book-search-engine',
+            appURL: 'https://peaceful-hollows-56780.herokuapp.com/',
+        },
+        {
+            id: 2,
+            name: 'Social Network API', 
+            description: 'A Social Network API built w/ Node.js, Express.js, and Mongoose ODM!',
+            img: socialNetworkAPI,
+            githubURL: 'https://github.com/richardguarnieri/social-network-api',
+            appURL: '',
+        },
+        {
+            id: 3,
+            name: 'Text Editor', 
+            description: 'A Text Editor PWA (Progressive Web Application)!',
+            img: textEditor,
+            githubURL: 'https://github.com/richardguarnieri/text-editor',
+            appURL: 'https://text-editor-jate-bc.herokuapp.com/',
+        },
+        {
+            id: 4,
             name: 'E-Commerce Back End', 
             description: 'An E-Commerce Application w/ Node.js, Sequelize ORM and MySQL Driver!',
             img: eCommerceBackEnd,
@@ -23,7 +51,7 @@ const Carousel = () => {
             appURL: '',
         },
         {
-            id: 2,
+            id: 5,
             name: 'Employee Tracker', 
             description: 'View and Manage Departments, Roles, and Employees in your Company',
             img: employeeTracker,
@@ -31,7 +59,15 @@ const Carousel = () => {
             appURL: '',
         },
         {
-            id: 3,
+            id: 6,
+            name: 'Tech Blog', 
+            description: 'View and Manage Departments, Roles, and Employees in your Company',
+            img: techBlog,
+            githubURL: 'https://github.com/richardguarnieri/tech-blog',
+            appURL: 'https://richard-tech-blog.herokuapp.com/',
+        },
+        {
+            id: 7,
             name: 'Team Profile Generator', 
             description: 'Team Profile Generator via Node.js and HTML',
             img: teamProfileGenerator,
@@ -39,7 +75,7 @@ const Carousel = () => {
             appURL: '',
         },
         {
-            id: 4,
+            id: 8,
             name: 'Weather Dashboard', 
             description: 'A simple weather dashboard and forecast',
             img: weatherDashboard,
@@ -47,7 +83,7 @@ const Carousel = () => {
             appURL: '',
         },
         {
-            id: 5,
+            id: 9,
             name: 'README Template', 
             description: 'A README.md template for your projects',
             img: readmeTemplate,
@@ -55,7 +91,7 @@ const Carousel = () => {
             appURL: '',
         },
         {
-            id: 6,
+            id: 10,
             name: 'Password Generator', 
             description: 'A random password generator',
             img: passwordGenerator,
@@ -63,7 +99,7 @@ const Carousel = () => {
             appURL: 'https://richardguarnieri.github.io/password-generator/',
         },
         {
-            id: 7,
+            id: 11,
             name: 'Code Quiz', 
             description: 'A JavaScript Coding Quiz Challenge',
             img: codeQuiz,
@@ -71,7 +107,7 @@ const Carousel = () => {
             appURL: 'https://richardguarnieri.github.io/code-quiz/',
         },
         {
-            id: 8,
+            id: 12,
             name: 'Work Day Scheduler', 
             description: 'A simple calendar app for scheduling your work day',
             img: workDayScheduler,
@@ -79,7 +115,7 @@ const Carousel = () => {
             appURL: 'https://richardguarnieri.github.io/work-day-scheduler/',
         },
         {
-            id: 9,
+            id: 13,
             name: 'Personal Asset Manager', 
             description: 'A centralized personal portfolio valuation',
             img: personalAssetManager,

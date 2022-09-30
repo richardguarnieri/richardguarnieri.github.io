@@ -4,7 +4,7 @@ const Portfolio = () => {
   return (
     <div>
         {/* Portfolio Section */}
-        <section id="portfolio" className="min-h-[100vh] px-5">
+        <section id="portfolio" className="mt-4 px-5 lg:mt-24">
             {/* Sticky Header w/ Bottom Border */}
             <div id="portfolio-header" className="sticky top-0 z-50 bg-white border-b border-slate-100">
                 {/* Header Container */}
