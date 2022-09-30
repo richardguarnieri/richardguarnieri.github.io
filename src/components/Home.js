@@ -19,9 +19,9 @@ const Home = () => {
                 <h2 className="text-3xl font-extralight">Hi, I'm <span className="font-bold">Richard Guarnieri</span>. A Finance Professional, Full Stack Developer and Data Scientist. 👋</h2>
                 <p className="">A technology-driven <span className="font-bold">engineer</span> with incredible passion towards tech and guided by curiosity, 
                     which have led me to eagerly seek to understand how things work at fundamental levels. 
-                    I've been coding since childhood and am a self-taught programmer, always experimenting with various systems and tools.
+                    I am a self-taught programmer, always experimenting with diverse systems and tools.
                     <br/><br/>
-                    Currently living in the <span className="font-bold">United States</span> and working on exciting new projects!
+                    Currently living in the <span className="font-bold">United States</span> and working on exciting new projects.
                 </p>
                 <a href="./assets/Richard_Guarnieri_Resume.pdf" target="_blank" 
                     className="

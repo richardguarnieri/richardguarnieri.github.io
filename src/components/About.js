@@ -30,16 +30,12 @@ const About = () => {
                     {/* Bio */}
                     <div className="my-10 xl:basis-6/12 xl:mr-10">
                         <p className="">
-                            In addition to my computing and development endeavors, I'm also an internationally experienced, results-driven <span className="font-bold">finance</span> professional with 
+                            In addition to my software and engineering endeavors, I'm also an internationally experienced, results-driven <span className="font-bold">finance</span> professional with 
                             solid experience in the <span className="font-bold">business</span> field such as successful execution of turnarounds, mergers and acquisitions (M&A), 
-                            systems implementation, business transformation, and people-focused approach in both public and privately held companies.
+                            systems implementation, and business transformation in both public and privately held companies.
                             <br/><br/>
-                            Fermentum dui faucibus in ornare. At lectus urna duis convallis convallis tellus id interdum velit. 
-                            Aliquam faucibus purus in massa tempor nec. A scelerisque purus semper eget duis at tellus at. Mi eget mauris pharetra et ultrices. 
-                            Netus et malesuada fames ac turpis egestas. Proin fermentum leo vel orci porta non. Velit sed ullamcorper morbi tincidunt ornare. 
-                            Orci dapibus ultrices in iaculis nunc. Mus mauris vitae ultricies leo integer malesuada nunc vel risus. 
-                            Ut sem nulla pharetra diam sit. Sed elementum tempus egestas sed sed risus pretium quam. In egestas erat imperdiet sed euismod nisi porta lorem mollis. 
-                            Ultricies lacus sed turpis tincidunt id aliquet risus feugiat in. Sagittis eu volutpat odio facilisis. Amet tellus cras adipiscing enim eu turpis.</p>
+                            Started my career a Swiss multinational logistics company under the finance department in Panama. I was then shortly after relocated to Mexico City where I worked for over four years in various roles such as Controllership and CFO positions. Recently moved to the United States and am now working with a team of wonderful people on exciting new projects.
+                        </p>
                     </div>
                     {/* Blocks */}
                     <div className="flex flex-wrap justify-center items-center xl:basis-6/12">
