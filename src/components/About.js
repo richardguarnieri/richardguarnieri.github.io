@@ -34,7 +34,7 @@ const About = () => {
                             solid experience in the <span className="font-bold">business</span> field such as successful execution of turnarounds, mergers and acquisitions (M&A), 
                             systems implementation, and business transformation in both public and privately held companies.
                             <br/><br/>
-                            Started my career a Swiss multinational logistics company under the finance department in Panama. I was then shortly after relocated to Mexico City where I worked for over four years in various roles such as Controllership and CFO positions. I am now living in the United States and working with a team of wonderful people on exciting new projects.
+                            I started my career at a Swiss multinational logistics company in Panama’s finance department. Shortly after, I relocated to Mexico City, where I worked for over four years in various roles such as Controllership and CFO positions. I am now living in the United States and working with a team of wonderful people on exciting projects.
                         </p>
                     </div>
                     {/* Blocks */}
