@@ -1,4 +1,5 @@
 import profilePicture from '../img/profile/profile_picture_main.jpg';
+// import profilePicture2 from '../img/profile/s1.png';
 
 const Home = () => {
   return (
@@ -10,7 +11,7 @@ const Home = () => {
                 <img 
                     src={profilePicture} 
                     alt="Richard Guarnieri wearing a navy suit, smiling and sitting on a chair" 
-                    className="rounded-lg mx-auto grayscale 
+                    className="rounded-lg mx-auto grayscale
                     transition duration-300 hover:grayscale-0"
                 />
             </div>

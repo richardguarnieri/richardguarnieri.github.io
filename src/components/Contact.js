@@ -38,7 +38,7 @@ const Contact = () => {
                         </div>
                         <div className="flex justify-between">
                             <p className="text-xl font-semibold">Mobile:</p>
-                            <p className="text-xl font-extralight">+52 5579783993</p>
+                            <p className="text-xl font-extralight">(770) 757-4230</p>
                         </div>
                         <div className="flex justify-between">
                             <p className="text-xl font-semibold">Languages:</p>

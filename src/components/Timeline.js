@@ -1,4 +1,4 @@
-// import dachser from '../img/timeline/dachser.png';
+import dachser from '../img/timeline/dachser.png';
 import icss from '../img/timeline/icss.jpeg';
 import panalpina from '../img/timeline/panalpina.jpeg';
 
@@ -18,8 +18,21 @@ const Timeline = () => {
                 <div className="flex-1 basis-full m-5 flex items-center md:basis-5/12">
                     <div className="m-5 border-l pl-12">
                         <div className="relative flex">
+                            <img src={dachser} alt="" srcset="" className="absolute left-[-4.75rem] w-14 h-14 rounded-full shadow-lg" />
+                            <p className="px-2 py-1 bg-green-700 border rounded text-white text-sm">May 2022 - Present</p>
+                            <p className="ml-3 px-2 py-1 border border-gray-300 rounded text-gray-700 text-sm">United States</p>
+                        </div>
+                        <h3 className="mt-3 text-lg font-bold text-gray-900">Regional Head of Controlling, Americas</h3>
+                        <p className="font-extralight">DACHSER</p>
+                        <p className="mt-3">World’s largest private logistics provider with EUR $7.1 billion annual revenue – supporting all finance reporting, performance and business controlling related matters. Monitors and manages risks / exposures for all business units across the Americas’, driving shareholder value creation initiatives.</p>
+                    </div>
+                </div>
+                {/* Job #1 */}
+                <div className="flex-1 basis-full m-5 flex items-center md:basis-5/12">
+                    <div className="m-5 border-l pl-12">
+                        <div className="relative flex">
                             <img src={icss} alt="" srcset="" className="absolute left-[-4.75rem] w-14 h-14 rounded-full shadow-lg" />
-                            <p className="px-2 py-1 bg-green-700 border rounded text-white text-sm">Sep 2020 - Present</p>
+                            <p className="px-2 py-1 bg-red-600 border rounded text-white text-sm">Sep 2020 - Apr 2022</p>
                             <p className="ml-3 px-2 py-1 border border-gray-300 rounded text-gray-700 text-sm">Mexico</p>
                         </div>
                         <h3 className="mt-3 text-lg font-bold text-gray-900">Chief Financial Officer, Latin America</h3>
@@ -45,7 +58,7 @@ const Timeline = () => {
                     </div>
                 </div>
                 {/* Job #3 */}
-                <div className="flex-1 basis-full m-5 flex items-center md:basis-5/12">
+                <div className="hidden flex-1 m-5 items-center md:flex md:basis-5/12">
                     <div className="m-5 border-l pl-12">
                         <div className="relative flex">
                             <img src={panalpina} alt="" srcset="" className="absolute left-[-4.75rem] w-14 h-14 rounded-full shadow-lg" />
@@ -60,7 +73,7 @@ const Timeline = () => {
                     </div>
                 </div>
                 {/* Job #4 */}
-                <div className="hidden flex-1 m-5 flex items-center md:flex md:basis-5/12">
+                <div className="hidden flex-1 m-5 items-center xl:flex xl:basis-5/12">
                     <div className="m-5 border-l pl-12">
                         <div className="relative flex">
                             <img src={panalpina} alt="" srcset="" className="absolute left-[-4.75rem] w-14 h-14 rounded-full shadow-lg" />
@@ -74,7 +87,7 @@ const Timeline = () => {
                     </div>
                 </div>
                 {/* Job #5 */}
-                <div className="hidden flex-1 m-5 flex items-center xl:flex xl:basis-5/12">
+                <div className="hidden flex-1 m-5 items-center xl:flex xl:basis-5/12">
                     <div className="m-5 border-l pl-12">
                         <div className="relative flex">
                             <img src={panalpina} alt="" srcset="" className="absolute left-[-4.75rem] w-14 h-14 rounded-full shadow-lg" />
@@ -88,8 +101,8 @@ const Timeline = () => {
                             key member in effective implementations of multi-million dollar business cases</p>
                     </div>
                 </div>
-                {/* Job #5 */}
-                <div className="hidden flex-1 m-5 flex items-center xl:flex xl:basis-5/12">
+                {/* Job #6 */}
+                <div className="hidden flex-1 m-5 items-center xl:flex xl:basis-5/12">
                     {/* Empty */}
                 </div>
             </div>
