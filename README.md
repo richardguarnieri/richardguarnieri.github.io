@@ -87,9 +87,7 @@ Project Description: `Personal Site Deployed w/ GitHub Pages`
 
 [![Application Image][application-image]][application-url]
 
-Welcome to my personal site - the idea behind it was to present my professionalism and dedication moreso than a .pdf resume. It also grants the ability reach more people with my work and reflect who I am.
-
-Feel free to scoop in and explore.
+Welcome to my personal site - feel free to scoop in and explore.
 
 <p align="right"> - <a href="#home">Return to Home</a></p>
 
