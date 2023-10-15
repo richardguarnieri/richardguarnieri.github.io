@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.44b24d63.css",
-    "main.js": "/static/js/main.7b13d673.js",
+    "main.js": "/static/js/main.5ff4b209.js",
     "static/media/employee-tracker.png": "/static/media/employee-tracker.cfb36b1987be712a0849.png",
     "static/media/team-profile-generator.png": "/static/media/team-profile-generator.7174bb9a1e6eb9677298.png",
     "static/media/mern-book-search-engine.png": "/static/media/mern-book-search-engine.92498ca156bf6e49c547.png",
@@ -15,17 +15,18 @@
     "static/media/weather-dashboard.png": "/static/media/weather-dashboard.1d102f7a6cf569fdb299.png",
     "static/media/text-editor.png": "/static/media/text-editor.b349c669bb2ef0b680bc.png",
     "static/media/social-network-api.png": "/static/media/social-network-api.e369d95a83127c800c1e.png",
-    "static/media/profile_picture_main.jpg": "/static/media/profile_picture_main.de18362fc8de43b1401f.jpg",
+    "static/media/profile_picture_main.jpg": "/static/media/profile_picture_main.01c6a81b9cafd842bc6e.jpg",
+    "static/media/dachser.png": "/static/media/dachser.b38663b1cf5c69cf17a7.png",
     "static/media/panalpina.jpeg": "/static/media/panalpina.2773647ff2e0629da3f5.jpeg",
     "static/media/python.png": "/static/media/python.878ead43fd73adbf8e79.png",
     "static/media/react_dark.webp": "/static/media/react_dark.02486e478f54cce36c18.webp",
     "index.html": "/index.html",
     "static/media/graphQL.svg": "/static/media/graphQL.3caafeddeb7dab1f0c45ce24993078e7.svg",
     "main.44b24d63.css.map": "/static/css/main.44b24d63.css.map",
-    "main.7b13d673.js.map": "/static/js/main.7b13d673.js.map"
+    "main.5ff4b209.js.map": "/static/js/main.5ff4b209.js.map"
   },
   "entrypoints": [
     "static/css/main.44b24d63.css",
-    "static/js/main.7b13d673.js"
+    "static/js/main.5ff4b209.js"
   ]
 }
