@@ -16,7 +16,7 @@ const Home = () => {
             </div>
             {/* Right Side */}
             <div className="basis-1/2 space-y-8">
-                <h2 className="text-3xl font-extralight">Hi, I'm <span className="font-bold">Richard Guarnieri</span>. A Finance Professional, Full Stack Developer and Data Scientist. 👋</h2>
+                <h2 className="text-3xl font-extralight">Hi, I'm <span className="font-bold">Richard Guarnieri</span> — Finance Professional and Software Developer</h2>
                 <p className="">A technology-driven <span className="font-bold">engineer</span> with an incredible passion towards tech and guided by curiosity, 
                     which has led me to eagerly seek to understand how things work at fundamental levels. 
                     I am a self-taught programmer, always experimenting with diverse systems and tools.
